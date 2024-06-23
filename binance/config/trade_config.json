@@ -1,0 +1,48 @@
+{
+    "api_key":"XP5ehlZrRxMfVNvKCA4kDitMiMoRLPhU6Yy5z313sDQuNFTTBoc5M3epYfRpGC9O",
+    "api_secret":"D2MsCwaCt3J0NvQEb5IrV50P2fmDHIto70hGvxEurpwLekSC84fKDhUHBB1hgx1M",
+    "mode": "BSW",
+    "ma_window": 99,
+    "ma_alg": "sma",
+    "buy_delta": 0.0001,
+    "sell_delta": 0.0001,
+    "stop_buy_price": 1.0010,
+    "stop_sel_price": 0.9980,
+    "stop_lost": 0.0004,
+    "cooling_down_hours": 4,
+    "overwhelm_ratio_h": 3.0,
+    "overwhelm_ratio_l": 2.0,
+    "absolute_high_qty": 12000000,
+    "absolute_low_qty": 8000000,
+
+    "vcoin_to_monitor": ["BTC"],
+    "buy_dip_1hr_ahead_buffer": 0.003,
+    "buy_dip_12hr_ahead_buffer": 0.03,
+    "buy_dip_24hr_ahead_buffer": 0.05,
+	"buy_order_open_tolerant_minutes": 10,
+    "BTC": 
+    {
+        "stop_loss": 0.75,
+        "stop_profit_1hr":  1.016,
+        "stop_profit_12hr": 1.05,
+        "stop_profit_24hr": 1.05,
+        "buy_dip_1hr":  0.0,
+        "buy_dip_12hr": 0.85,
+        "buy_dip_24hr": 0.75,
+        "name_TBD":     0.94,
+        "stop_trading_days_after_fail": 7
+    },
+
+    "ETH": 
+    {
+        "stop_loss": 0.50,
+        "stop_profit_1hr":  1.015,
+        "stop_profit_12hr": 1.05,
+        "stop_profit_24hr": 1.05,
+        "buy_dip_1hr":  0.0,
+        "buy_dip_12hr": 0.85,
+        "buy_dip_24hr": 0.75,
+        "name_TBD":     0.94,
+        "stop_trading_days_after_fail": 7
+    }
+}

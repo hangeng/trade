@@ -1,0 +1,13 @@
+{
+    "api_key":"IImfiK0jcJBx9uainwaKwvPaUffYWlAzUFV2rf6idw6zf4HFb9SmxRZyf8lwoPKh1",
+    "api_secret":"WPU4dOeAX74Ru2tVnrnrdVsuRceNTiIsNMK5FoYEOxbJJM2mcSY20oXiJ2vcgOAl1",
+    "dcoin":         "BTC",
+    "lower_limit":   64100,
+    "upper_limit":   64500,
+    "grid_cnt":      50,
+    "start_price":   64300,
+    "stop_profit":   64500,
+    "investment":    10000,
+    "price_resolution": 2,
+    "qty_resolution": 5
+}
