@@ -207,7 +207,7 @@ class TradingGuard:
         self.reset()
 
     def reset(self):
-        self.credits = 100
+        self.credits = 1000
         self.credit_last_update_time = now()
 
     def update_credit(self):
